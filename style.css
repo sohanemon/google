@@ -1,7 +1,56 @@
 :root {
   --secondary-color: #f2f2f2;
+  --primary-text: #000000;
   --secondary-text: #70757a;
   --feeling-lucky: #4d5156;
   --input-border-color: #dfe1e5;
   --button-background: #f8f9fa;
+}
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: end;
+  gap: 15px;
+  align-items: center;
+  padding: 13px 21px;
+  font-size: 13px;
+}
+li {
+}
+li > a {
+  text-decoration: none;
+  color: var(--primary-text);
+}
+li:hover > a {
+  text-decoration: underline;
+}
+ul > li:nth-child(4) > img {
+  width: 32px;
+}
+ul > li:nth-child(3) > img {
+  width: 24px;
+  margin-left: 12px;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input,
+input {
+  height: 46px;
+  border-radius: 24px;
+  border: 1px solid var(--input-border-color);
+  outline: none;
+  width: 40%;
+  display: block;
+  margin: auto;
+}
+input:focus {
+  border: 1px solid var(--input-border-color);
+  box-shadow: 0px 2px 10px var(--input-border-color);
 }
