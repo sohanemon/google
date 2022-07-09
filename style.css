@@ -28,9 +28,11 @@ li:hover > a {
   text-decoration: underline;
 }
 ul > li:nth-child(4) > img {
+  /* note User  */
   width: 32px;
 }
 ul > li:nth-child(3) > img {
+  /*note Menu */
   width: 24px;
   margin-left: 12px;
 }
@@ -46,13 +48,16 @@ section {
   width: 45%;
 }
 section img:nth-child(3) {
+  /* note search */
+
   position: absolute;
-  top: 20%;
+  top: 18%;
   left: 35px;
 }
 section img:nth-child(4) {
+  /* note voice */
   position: absolute;
-  top: 18%;
+  top: 16%;
   right: 30px;
 }
 input {
