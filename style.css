@@ -58,7 +58,7 @@ section img:nth-child(4) {
   /* note voice */
   position: absolute;
   top: 16%;
-  right: 30px;
+  right: -20px;
 }
 input {
   height: 46px;
@@ -68,8 +68,10 @@ input {
   outline: none;
   display: block;
   margin: auto;
+  padding-left: 50px;
 }
-input:focus {
+input:focus,
+input:hover {
   border: 1px solid var(--input-border-color);
   box-shadow: 0px 2px 10px var(--input-border-color);
 }
